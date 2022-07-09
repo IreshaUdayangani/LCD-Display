@@ -73,20 +73,4 @@ int main(void)
 	
 }
 	
-
-void CHEMBER_1()
-{
-	PORTC = 0b00000100;//Make port C pin 2 as a output pin
-	_delay_ms(5000);
-	PORTC =0b00000100;
-	_delay_ms(10000);
-	PORTC = 0b00000000;
-}
-void CHEMBER_2()
- {
-	PORTC = 0b00001000;//Make port C pin 2 as a output pin
-	_delay_ms(5000);
-	PORTC =0b00001000;
-	_delay_ms(10000);
-	PORTC = 0b00000000;
-}
+    
